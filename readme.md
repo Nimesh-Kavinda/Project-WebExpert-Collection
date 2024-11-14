@@ -21,7 +21,7 @@
 To view **WebExpert**:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/WebExpert.git
+   git clone https://github.com/Nimesh-Kavinda/Project-WebExpert-Collection.git
     ```
 
 2. Open index.html in your browser to explore the collection.
