@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/search.png">
+    <link rel="stylesheet" href="../master.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="../index.html" class="logo">
+                    <img src="../images/logo.svg" alt="WebExpert">
+                    <span>WebExpert</span>
+                </a>
+                <nav>
+                    <ul class="nav-items">
+                        <li>
+                            <a href="../quiz/index.html">Quiz</a>
+                        </li>
+                        <li>
+                            <a href="../todo-list/index.html">Todo-List</a>
+                        </li>
+                        <li>
+                            <a href="../news/index.html">News</a>
+                        </li>
+                        <li>
+                            <a href="../progress-board/index.html">Progress-Board</a>
+                        </li>
+                        <li>
+                            <a href="../budget-manger/index.html">budget-Manager</a>
+                        </li>
+                        <li>
+                            <a href="../bookmark-manager/index.html">Bookmark</a>
+                        </li>
+                        <span class="newsletter">Join Newsletter</span>
+                    </ul>
+                </nav>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrap">
+            <section class="heading">
+                <p class="title">WebExpert</p>
+                <p class="sub-title">Manage and Search Your Pending Tasks in Clicks!</p>
+            </section>
+
+            <section class="task-manager">
+                <div class="search-box">
+                    
+                    <form class="search">
+                        <input type="text" name="task" placeholder="Search Task" autocomplete="off">
+                        <i class="bi bi-x-circle reset"></i>
+                    </form>
+                </div>
+                <div class="task-box">
+                    <ul class="tasks">
+                        <li>
+                            <span>VD Recording</span>
+                            <i class="bi bi-trash-fill delete"></i>
+                        </li>
+                        <li>
+                            <span>Editing</span>
+                            <i class="bi bi-trash-fill delete"></i>
+                        </li>
+                        <li>
+                            <span>AD Recording</span>
+                            <i class="bi bi-trash-fill delete"></i>
+                        </li>
+                    </ul>
+                    <form class="add">
+                        <input type="text" name = "task" placeholder="Add Tasks" autocomplete="off">
+                        <input type="submit" value="Add">
+                    </form>
+                </div>
+                <div class="message">
+                    <span></span>
+                    <button class="clear">Clear All</button>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <section class="modal">
+        <div class="newsletter-modal">
+        <p>Join Newsletter Now!</p>
+        <form>
+            <input type="text" name="name" placeholder="Name" autocomplete="off">
+            <input type="email" name="email" placeholder="Email" autocomplete="off">
+            <input type="submit" value="Join">
+        </form>
+        <i class="bi bi-x-lg close"></i>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="brand-name">
+                    <span>@ WebExpert by Nimesh</span>
+                </div>
+                <div class="social-icons">
+                    <i class="bi bi-twitter social"></i>
+                    <i class="bi bi-linkedin social"></i>
+                    <i class="bi bi-youtube social"></i>
+                    <i class="bi bi-instagram social"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="../main.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Protal-Your Custom News Portal With Selected Categories And Updates!</title>
+    <link rel="icon" type="image/x-icon" href="./images/news.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../master.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <a href="../index.html" class="logo">
+                    <img src="../images/logo.svg" alt="WebExpert">
+ Nimesh>WebExpert</spNimesh>
+                </a>
+                <nav>
+                    <ul class="nav-items">
+                        <li>
+                            <a href="../quiz/index.html">Quiz</a>
+                        </li>
+                        <li>
+                            <a href="../todo-list/index.html">Todo-List</a>
+                        </li>
+                        <li>
+                            <a href="../news/index.html">News</a>
+                        </li>
+                        <li>
+                            <a href="../progress-board/index.html">Progress-Board</a>
+                        </li>
+                        <li>
+                            <a href="../budget-manger/index.html">budget-Manager</a>
+                        </li>
+                        <li>
+                            <a href="../bookmark-manager/index.html">Bookmark</a>
+                        </li>
+                        <span class="newsletter">Join Newsletter</span>
+                    </ul>
+                </nav>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+       <div class="outer-wrap">
+        <div class="inner-wrap">
+            <section class="heading">
+                <p class="title">WebExpert</p>Nimesh class="subtitle">Your Custom News Portal With Selected Categories And Updates!</p>
+            </section>
+            <section class="news">
+                <div class="category">
+                    <span class="active" data-url="/top-headlines?country=us">US (ALL)</span>
+                    <span data-url="/top-headlines?country=us&category=business">US (Business)</span>
+                    <span data-url="/everything?q=crypto&sortBy=publishdAt">Cryptocurrency</span>
+                    <span data-url="/top-headlines?sources=techcrunch">Techcrunch</span>
+                </div>
+                <div class="cards">
+                </div>
+            </section>
+        </div>
+       </div>
+    </main>
+
+    <section class="modal">
+        <div class="newsletter-modal">
+        <p>Join Newsletter Now!</p>
+        <form>
+            <input type="text" name="name" placeholder="Name" autocomplete="off">
+            <input type="email" name="email" placeholder="Email" autocomplete="off">
+            <input type="submit" value="Join">
+        </form>
+        <i class="bi bi-x-lg close"></i>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="brand-name">
+                    <span>@ WebExpert by Nimesh</span>
+                </div>
+                <div class="social-icons">
+                    <i class="bi bi-twitter social"></i>
+                    <i class="bi bi-linkedin social"></i>
+                    <i class="bi bi-youtube social"></i>
+                    <i class="bi bi-instagram social"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../main.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
